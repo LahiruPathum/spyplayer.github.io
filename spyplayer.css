@@ -1,0 +1,19 @@
+
+/* navbar style */
+.navbar{outline-offset: -13px;
+    padding: 30px; 
+    background: #6819e8;
+    background: -moz-linear-gradient(left, #6819e8 0%, #7437d0 35%, #615fde 68%, #6980f2 100%);
+    background: -webkit-linear-gradient(left, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);
+    background: linear-gradient(to right, #6819e8 0%,#7437d0 35%,#615fde 68%,#6980f2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6819e8', endColorstr='#6980f2',GradientType=1 );
+}
+
+.nav-link , .navbar-brand{color: #f4f4f4; cursor: pointer;}
+.nav-link{margin-right: 1em!important;}
+.navbar-brand:hover{color: #f97300;}
+.nav-link:hover{background: #f4f4f4; color: #f97300; border-radius: 20px;}
+.navbar-collapse{justify-content: flex-end;}
+.navbar-toggler{background: #fff!important;}
+
+
